@@ -1,12 +1,10 @@
 import './App.css';
-<<<<<<< HEAD
 import CardSitter from './Components/CardSitter';
 import Footer from './Components/Footer'
 import LeftMenu from './Components/LeftMenu';
-=======
 import HeaderBand from './Components/HeaderBand.js';
 import Navbar from './Components/Navbar.js';
->>>>>>> 66dd63a37d8a5982fb05275dcbad329338929130
+
 
 function App() {
 
@@ -19,8 +17,10 @@ function App() {
 
   return (
     <div className="App">
-<<<<<<< HEAD
+
         <div className='main-container'>
+            <HeaderBand />
+            <Navbar/>
             <LeftMenu />
             <div className='petSitter-container'>
                 {users.map((user,index)=>{
@@ -29,10 +29,6 @@ function App() {
             </div>
         </div>
       <Footer/>
-=======
-      <HeaderBand />
-      <Navbar/>
->>>>>>> 66dd63a37d8a5982fb05275dcbad329338929130
     </div>
   );
 }

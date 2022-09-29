@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -37,20 +38,47 @@
   }
 }
 
-<<<<<<< HEAD
 
-/* CSS for the footer component */
-.footer{
+.footer {
   background-color: #747760;
-  padding: 40px ;
-  margin: 5px auto;
-  }
+  bottom: 0em;
+  width: 100%;
+}
 
-  .footer ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-  }
+.footercategories {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footercategories div {
+  color: #ffffff;
+  text-align: center;
+}
+
+.btnNewsletter {
+  background-color: #c7af98;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.categoryNewsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputNewsletter {
+  margin: 5px;
+}
+
+.legalmentions {
+  color: #ffffff;
+}
+
+.divlegalmentions {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
 
 /* Main Container */
 .main-container{
@@ -165,7 +193,7 @@
 .card-date, .card-excerpt {
   color: #777;
 }
-=======
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -206,4 +234,4 @@
   background-color: #c7af98;
   max-height: 100%;
 }
->>>>>>> 66dd63a37d8a5982fb05275dcbad329338929130
+
