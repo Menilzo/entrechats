@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -39,6 +40,9 @@
 
 .footer {
   background-color: #747760;
+  position: fixed;
+  bottom: 0em;
+  width: 100%;
 }
 
 .footercategories {

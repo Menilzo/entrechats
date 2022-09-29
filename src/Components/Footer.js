@@ -34,5 +34,6 @@ export default function Footer(props){
                 <a href='#' className='legalmentions'>Mentions légales</a>
             </div>
         </footer>
+        
     )
 }
