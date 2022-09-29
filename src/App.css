@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  background-color: #747760;
+}
+
+.footercategories {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footercategories div {
+  color: #ffffff;
+  text-align: center;
+}
+
+.btnNewsletter {
+  background-color: #c7af98;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.categoryNewsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputNewsletter {
+  margin: 5px;
+}
+
+.legalmentions {
+  color: #ffffff;
+}
+
+.divlegalmentions {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
