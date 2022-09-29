@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import CardSitter from './Components/CardSitter';
+import Footer from './Components/Footer'
+import LeftMenu from './Components/LeftMenu';
 
 function App() {
+
+  const users = [
+    {name: 'Audrey', address: '20 rue de l\'horloge | 75019 Paris', description: 'lorem blablablabla lfelzhaf efahzlkjhlfkh fkejzhkf', path: 'pet-sitter1.png'},
+    {name: 'Ben', address: '24 rue des Félines | 87100 Limoges', description: 'lorem blablablabla lfelzhaf efahzlkjhlfkh fkejzhkf', path: 'pet-sitter2.png'},
+    {name: 'Pauline', address: '12 avenue Jean Jaurès | 84162 Avignon', description: 'lorem blablablabla lfelzhaf efahzlkjhlfkh fkejzhkf', path: 'pet-sitter3.png'},
+    {name: 'Lucas', address: '17 avenue Baudin | 59000 Lille', description: 'lorem blablablabla lfelzhaf efahzlkjhlfkh fkejzhkf', path: 'pet-sitter4.png'},
+  ]
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className='main-container'>
+            <LeftMenu />
+            <div className='petSitter-container'>
+                {users.map((user,index)=>{
+                    return <CardSitter key={index} msg={user}/>
+                })}
+            </div>
+        </div>
+      <Footer/>
     </div>
   );
 }
