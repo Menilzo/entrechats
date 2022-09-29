@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  background-image: url(../public/Bannière-entrechats.png);
+  position: relative;
+}
+
+.btn-search {
+  display: flex;
+  position: absolute;
+  right: 25px;
+  top: 10px;
+}
+.d-flex {
+  display: flex;
+  height: 70px;
+}
+
+.navbar {
+  background-color: #c86a3c;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.align {
+  align-items: center;
+}
+
+.leave {
+  height: 35px;
+}
+
+.paw {
+  background-color: #c7af98;
+  max-height: 100%;
+}
